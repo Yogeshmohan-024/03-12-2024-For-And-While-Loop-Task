@@ -10,6 +10,8 @@ function cars(){
 }
 cars()
 
+//  reverse the elements of an array
+
 function vechile(){
     let cars_brands=["MARUTHI(SWIFT)","HONDA(AMAZE)","FORD(FIGO)","TOYOTA(INNOVA)","TATA(PUNCH)"];
     let car_names=4;
@@ -19,6 +21,8 @@ function vechile(){
     }
 }
 vechile()
+
+// find the maximum numbers in an array
 
 function marks(){
     let totals=[432,433,487,495,465];
@@ -34,6 +38,8 @@ function marks(){
 }
 marks()
 
+// find the minimum numbers in an array
+
 function failmarks(){
     let totals=[432,433,487,495,465];
     let min=totals[0];
@@ -45,6 +51,8 @@ function failmarks(){
     console.log(` This is maximum mark ${min}`);
 }
 failmarks()
+
+// sum of the array values
 
 function sumarrays(){
     let arr=[56,87,52,32,98,26];
